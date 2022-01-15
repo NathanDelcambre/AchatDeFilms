@@ -1,0 +1,217 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 25% 30%;
+  height: 250px;
+  position: relative;
+  background-image: url(https://hdfondsdecran.com/image/201609/2722/ratatouille-film-danimation-paris.jpg);
+}
+
+.barre {
+	background-color: black;
+	height: 5px;
+	width: 100%;
+}
+
+.overlay {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  height: 100%;
+  right: 0;
+  bottom: 0;
+  padding: 0 !important;
+  margin: 0 !important;
+  /*background-color: rgba(10, 10, 10,0.3);*/
+}
+
+nav {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 2;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 100px 20px 10px 10px;
+}
+
+nav a{
+	text-decoration: none;
+}
+
+nav li {
+  list-style: none;
+  display: inline-block;
+  padding-right: 10px;
+  padding-left: 15x;
+  padding-top: 5px;
+}
+
+nav li img {
+  height: 40px;
+  width: auto;
+}
+
+nav h2 {
+	color: rgb(254,254,235);
+	margin-left: 550px;
+	font-size: 60;
+	font-stretch: 150%;
+	font-family: Georgia, serif;
+	text-decoration: none;
+}
+
+nav ul {
+	position: absolute;
+	right: 50px;
+	border: 1px solid black;
+	background-color: rgb(254, 255, 235);
+}
+
+li a {
+  padding: 5px;
+  font-size: 20;
+}
+
+
+.panier ion-icon{
+  vertical-align: center;
+  font-size: 25px;
+  padding-right: 5px;
+  color: rgb(130,100,100);
+}
+
+.panier span{
+  vertical-align: center;
+  font-size: 20px;
+  color: rgb(130,100,0);
+  position: relative;
+  bottom: 3px;
+}
+
+
+.panier a {
+  color: rgb(130,50,0);
+  cursor: pointer;
+  text-decoration: none;
+  font-family: Georgia, serif;
+  font-size: 20px;
+  vertical-align: top;
+  font-weight: bold;
+}
+
+.retour{
+	background-color: rgb(254,254,240);
+	padding-top: 15px;
+	padding-left: 15px;
+
+}
+
+.retour h2{
+	font-size: 17px;
+}
+
+.retour a{
+	text-decoration: none;
+	color: rgb(130,50,0);
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box{
+    position: relative;
+    padding: 20px;
+    display: flex;
+	background-color: rgb(254,254,240);
+	padding-bottom: 100px;
+	padding-top: 50px;
+}
+
+.box .contenuBox{
+    margin: 30;
+    padding-left: 20px;
+}
+
+.contenuBox h2{
+	font-size: 40px;
+	color: rgb(130,100,50);
+	position: relative;
+	left: 330px;
+	padding-bottom: 100px;
+}
+
+.contenuBox p{
+	font-size: 20px;
+	font-weight: bold;
+	padding-bottom: 15px;
+	position: relative;
+	left: 300px;
+}
+
+
+.imageBox{
+	position: relative;
+	left: 250px;
+}
+
+.ajouterPanier{
+	position: relative;
+	left: 350px;
+	top: 60px;
+	font-size: 17px;
+	font-weight: bold;
+	background-color: rgb(150,80,50);
+	padding: 10px;
+	color: white;
+	text-decoration: none;
+	border-radius: 10px;
+}
+
+footer{
+	height: 200px;
+	width:100%;
+	background-color: rgb(40,90,150);
+}
+
+footer img{
+	width: auto;
+	height: 180px;
+	vertical-align: center;
+	padding-left: 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+footer h2{
+	color: white;
+	font-weight: bold;
+	vertical-align: center;
+	position: absolute;
+	left: 10%;
+	top: 1140px;
+}
+
+footer a{
+	color: rgb(200,230,255);
+	font-weight: bold;
+	font-size: 20px;
+	vertical-align: center;
+	position: absolute;
+	left: 88%;
+	top: 1140px;
+}

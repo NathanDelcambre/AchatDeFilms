@@ -1,0 +1,173 @@
+[
+    {
+        "id": "intouchables",
+        "genre": "Comedie dramatique",
+        "titre": "Intouchables",
+        "realisateur": "Olivier Nakache",
+        "duree": 112,
+        "prix": 5,
+        "affiche": "imageSource\/intouchables.jpg"
+    },
+    {
+        "id": "titanic",
+        "genre": "Drame romantique",
+        "titre": "Titanic",
+        "realisateur": "James Cameron",
+        "duree": 195,
+        "prix": 7,
+        "affiche": "imageSource\/titanic.jpg"
+    },
+    {
+        "id": "starwars3",
+        "genre": "Science-fiction",
+        "titre": "Star Wars, episode III",
+        "realisateur": "Georges Lucas",
+        "duree": 140,
+        "prix": 5,
+        "affiche": "imageSource\/starwars3.jpg"
+    },
+    {
+        "id": "yourname",
+        "genre": "Com\u00e9die romantique, fantastique",
+        "titre": "Your Name",
+        "realisateur": "Makoto Shinkai",
+        "duree": 107,
+        "prix": 6,
+        "affiche": "imageSource\/yourname.jpg"
+    },
+    {
+        "id": "Tunetueraspoint",
+        "genre": "Historique et drame",
+        "titre": "Tu ne tueras point",
+        "realisateur": "Mel Gibson",
+        "duree": 131,
+        "prix": 8,
+        "affiche": "imageSource\/tunetueraspoint.jpg"
+    },
+    {
+        "id": "rastarockett",
+        "genre": "Com\u00e9die sportive",
+        "titre": "Rasta Rockett",
+        "realisateur": "Jon Turteltaub",
+        "duree": 98,
+        "prix": 9,
+        "affiche": "imageSource\/rastarockett.jpg"
+    },
+    {
+        "id": "lesroisdelaglisse",
+        "genre": "Animation",
+        "titre": "Les Rois de la glisse",
+        "realisateur": "Ash Brannon, Chris Buck",
+        "duree": 85,
+        "prix": 2,
+        "affiche": "imageSource\/roisdelaglisse.jpg"
+    },
+    {
+        "id": "inception",
+        "genre": "Thriller, Science-fiction",
+        "titre": "Inception",
+        "realisateur": "Christopher Nolan",
+        "duree": 147,
+        "prix": 15,
+        "affiche": "imageSource\/inception.jpg"
+    },
+    {
+        "id": "hp2",
+        "genre": "Fantastique",
+        "titre": "Harry Potter 2",
+        "realisateur": "Chris Columbus",
+        "duree": 161,
+        "prix": 8,
+        "affiche": "imageSource\/hp2.jpg"
+    },
+    {
+        "id": "hp1",
+        "genre": "Fantastique",
+        "titre": "Harry Potter 1",
+        "realisateur": "Chris Columbus",
+        "duree": 152,
+        "prix": 4,
+        "affiche": "imageSource\/hp1.jpg"
+    },
+    {
+        "id": "lestuche",
+        "genre": "Com\u00e9die",
+        "titre": "Les Tuche",
+        "realisateur": "Olivier Baroux",
+        "duree": 97,
+        "prix": 5,
+        "affiche": "imageSource\/lestuche.jpg"
+    },
+    {
+        "id": "chasingmavericks",
+        "genre": "Film biographique",
+        "titre": "Chasing Mavericks",
+        "realisateur": "Michael Apted, Curtis Hanson",
+        "duree": 116,
+        "prix": 13,
+        "affiche": "imageSource\/chasing.jpg"
+    },
+    {
+        "id": "seigneur3",
+        "genre": "Fantaisie",
+        "titre": "Lord of the ring 3",
+        "realisateur": "Peter Jackson",
+        "duree": 201,
+        "prix": 15,
+        "affiche": "imageSource\/lord3.jpg"
+    },
+    {
+        "id": "dune",
+        "genre": "Science-fiction",
+        "titre": "Dune",
+        "realisateur": "Eric Roth, Jon Spaihts, Denis Villeneuve",
+        "duree": 155,
+        "prix": 20,
+        "affiche": "imageSource\/dune.jpg"
+    },
+    {
+        "id": "eiffel",
+        "genre": "Biographie historique",
+        "titre": "Eiffel",
+        "realisateur": "Martin Bourboulon",
+        "duree": 115,
+        "prix": 16,
+        "affiche": "imageSource\/eiffel.jpg"
+    },
+    {
+        "id": "solo",
+        "genre": "Science-fiction",
+        "titre": "Solo, a Star Wars story",
+        "realisateur": "Lawrence Kasdan, Jonathan Kasdan",
+        "duree": 135,
+        "prix": 10,
+        "affiche": "imageSource\/solo.jpg"
+    },
+    {
+        "id": "raiponce",
+        "genre": "Animation",
+        "titre": "Raiponce",
+        "realisateur": "Bryron Howard,Nathan Greno",
+        "duree": 100,
+        "prix": 11,
+        "affiche": "imageSource\/raiponce.jpg"
+    },
+    {
+        "id": "coco",
+        "titre": "Coco",
+        "genre": "Animation",
+        "realisateur": "Disney",
+        "duree": "110",
+        "prix": "3",
+        "affiche": "imageSource\/coco.jpg"
+    },
+    {
+        "id": "interstellar",
+        "titre": "Interstellar",
+        "genre": "Science-fiction Drame",
+        "realisateur": "Christopher Nolan",
+        "duree": "169",
+        "prix": "20",
+        "affiche": "imageSource\/interstellar.jpg"
+    }
+]

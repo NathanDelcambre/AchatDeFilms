@@ -1,0 +1,55 @@
+<html>
+	<head>
+		<title>Formulaire d'identification</title>
+		<meta charset="utf-8">
+		<title>Acheter films</title>
+		<link rel="stylesheet" href="styleInscription.css">
+	</head>
+
+	<body>
+
+		<header>
+				<div class="barre"></div>
+				<div class="overlay"></div>
+					<nav>
+						<a href=accueil.php class=accueil><h2>BOUTIQUE DE FILMS</h2></a>
+					</nav>
+			</header>
+
+			<div class="barre"></div>
+			
+			<div class="retour">
+				<a href=connexion.html><h2>< Retour en arrière</h2></a>
+			</div>
+
+			<div class="det">
+				<img src="autresImages/detr.png" alt="detraqueur" />
+			</div>
+			
+			<div class="bobr">
+				<img src="autresImages/bobr.png" alt="bobr" />
+			</div>
+
+		<div class='formulaire'>
+			<form action="creationCompte.php" method="post">
+				<h1>Bienvenue ! </h1>
+				<h3 class=nom>Votre nom :</h3><input class=nom type=text name="nom"  size=25 required>
+				<h3 class=prenom>Votre prénom :</h3><input class=prenom type=text name="prenom" size=20 required><br />
+				<h3 class=mail>Votre adresse mail :</h3><input class=mail type="email" name="mail" size=30 required><br />
+				<h3 class=log>Votre login :</h3><input class=log type=text name="login" size=20 required>
+				<h3 class=mdp>Votre mot de passe :</h3><input class=mdp type=password name="pwd" size=20 required><br />
+				<input type="submit" value="Créer le compte" class='boutCreation'>
+			</form>
+		</div>
+
+
+	</body>
+
+	<footer>
+		<div class="barre"></div>
+		<img src="autresImages/olaf.png" alt="Olaf" />
+		<h2>Merci de passer sur le site !</h2>
+		<a href="./nous.php">Notre équipe</a>
+	</footer>
+
+</html>

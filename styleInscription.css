@@ -1,0 +1,235 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 25% 30%;
+  height: 250px;
+  position: relative;
+  background-image: url(https://hdfondsdecran.com/image/201609/2722/ratatouille-film-danimation-paris.jpg);
+}
+
+.barre {
+	background-color: black;
+	height: 5px;
+	width: 100%;
+}
+
+.overlay {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  height: 100%;
+  right: 0;
+  bottom: 0;
+  padding: 0 !important;
+  margin: 0 !important;
+  /*background-color: rgba(10, 10, 10,0.3);*/
+}
+
+nav {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 2;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 100px 20px 10px 10px;
+}
+
+nav h2 {
+	color: rgb(254,254,235);
+	margin-left: 550px;
+	font-size: 60;
+	font-stretch: 150%;
+	font-family: Georgia, serif;
+}
+
+.formulaire{
+	display: flex;
+	justify-content:center;
+	flex-wrap: wrap;
+	margin-top: 0px;
+	padding-top: 80px;
+	padding-bottom: 200x;
+	background-color: rgb(254,254,240);
+}
+
+.retour{
+	background-color: rgb(254,254,240);
+	padding-top: 15px;
+	padding-left: 15px;
+
+}
+
+.retour h2{
+	font-size: 17px;
+}
+
+.retour a{
+	text-decoration: none;
+	color: rgb(130,50,0);
+}
+
+
+.formulaire h3{
+	position: relative;
+	padding-left: 10px;
+	margin-top:10px;
+	color: rgb(130,50,0);
+}
+
+input{
+	margin-bottom: 30px;
+	height: 35px;
+	font-size: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-top: 10px;
+}
+
+input:valid{
+	box-shadow: 1px 0px 4px 1px green;
+}
+
+input:invalid{
+	box-shadow: 1px 0px 4px 1px red;
+}
+
+.nom{
+	position: relative;
+	right:200px;
+}
+
+.prenom{
+	position: relative;
+	bottom:105px;
+	left: 200px;
+}
+
+.mail{
+	position: relative;
+	bottom:105px;
+	right: 200px;	
+}
+
+.log{
+	position: relative;
+	bottom:105px;
+	right: 200px;	
+}
+
+.mdp{
+	position: relative;
+	bottom:210px;
+	left: 200px;
+}
+
+.boutCreation:valid{
+	position: relative;
+	bottom:210px;
+	left: 50px;
+	box-shadow:none;
+}
+
+.boutConnex{
+	left: 865px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+
+.formulaire h4{
+	position: relative;
+	top: 450px;
+	right: 370px;	
+}
+
+.formulaire h1{
+	position: relative;
+	left: 50px;
+	margin-bottom: 50px;
+}
+
+.accueil{
+	text-decoration: none;
+}
+
+.det{
+	height: 0px;
+}
+
+.det img{
+	height: 650px;
+	width: auto;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	top: 130px;
+	left: 1320px;
+}
+
+
+.bobr{
+	height: 0px;
+}
+
+.bobr img{
+	height: 300px;
+	width: auto;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	top: 475px;
+	left: 100px;
+}
+
+footer{
+	height: 200px;
+	width:100%;
+	background-color: rgb(40,90,150);
+}
+
+footer{
+	height: 200px;
+	width:100%;
+	background-color: rgb(40,90,150);
+	position: relative;
+}
+
+footer img{
+	width: auto;
+	height: 180px;
+	vertical-align: center;
+	padding-left: 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+footer h2{
+	color: white;
+	font-weight: bold;
+	vertical-align: center;
+	position: absolute;
+	left: 10%;
+	top: 50%;;
+}
+
+footer a{
+	color: rgb(200,230,255);
+	font-weight: bold;
+	font-size: 20px;
+	vertical-align: center;
+	position: absolute;
+	left: 88%;
+	top: 50%;
+}

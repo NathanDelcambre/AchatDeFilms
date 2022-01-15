@@ -1,0 +1,38 @@
+Projet PHP
+
+1) Contexte :
+
+- Ce travail s'inscrit dans le module de PHP de deuxième année 
+  de DUT Informatique à l'IUT de Bayonne et du Pays Basque.
+
+- L'objectif était de réaliser un site marchand vendant des articles
+  sur le thème de notre choix en PHP/HTML/CSS/(JS). 
+
+2) Le site et ses fonctionalités :
+
+- Notre site permet à l'utilisateur d'acheter des films (virtuellement).
+
+- Il permet entre autres de :
+	- se connecter ou se créer un compte
+	- sélectionner un film et en afficher les détails
+	- ajouter au panier un article
+	- accéder à son panier et en modifier le contenu
+	- procéder au paiement (envoi d'un mail de validation de commande)
+
+- Se rajoute pour l'administrateur :
+	- consulter la liste des films en détails sur un même page
+	- ajouter un film à la liste
+	- retirer un film à la liste
+
+- L'administrateur peut également acheter des films.
+- Attention, le panier n'est pas sauvegardé lors de la déconnexion.
+- Une page 'Notre équipe' est disponible dans le footer.
+
+3) Temps de travail :
+
+- 3 séances en présentiel avec un enseignant (P. Roose) à l'IUT
+- une trentaine d'heures en autonomie en dehors des séances
+
+
+
+

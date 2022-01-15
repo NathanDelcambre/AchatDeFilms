@@ -1,0 +1,55 @@
+<html>
+	<head>
+		<title>Formulaire d'identification</title>
+		<meta charset="utf-8">
+		<title>Acheter films</title>
+		<link rel="stylesheet" href="styleLogin.css">
+	</head>
+
+	<body>
+
+		<header>
+				<div class="barre"></div>
+				<div class="overlay"></div>
+					<nav>
+						<a href=accueil.php class=accueil><h2>BOUTIQUE DE FILMS</h2></a>
+					</nav>
+			</header>
+
+			<div class="barre"></div>
+			
+			<div class="retour">
+				<a href=accueil.php><h2>< Retour à l'accueil</h2></a>
+			</div>
+			
+			<div class="minions">
+				<img src="autresImages/minions.png" alt="minions" />
+			</div>
+			
+			<div class="minions2">
+				<img src="autresImages/minions2.png" alt="minions2" />
+			</div>
+
+		<div class='formulaire'>
+
+			<form action="login.php" method="post">
+				<h1>Veuillez saisir vos informations de connexion</h1><br /><br /><br />
+				<h3 class=texte>Votre login :</h3><br /><input type=text name="login"  size=30 required>
+				<br /><br /><br /><br /><br /><br />
+				<h3 class=texte>Votre mot de passe :</h3><br /><input type=password name="pwd" size=30 required><br /><br /><br /><br /><br /><br />
+				<input type="submit" value="Connexion" class='boutConnex'>
+			</form>
+			<a href=inscription.php><h4>Pas encore inscrit ? Inscrivez-vous !</h4></a>
+		</div>
+
+
+	</body>
+
+	<footer>
+		<div class="barre"></div>
+		<img src="autresImages/olaf.png" alt="Olaf" />
+		<h2>Merci de passer sur le site !</h2>
+		<a href="./nous.php">Notre équipe</a>
+	</footer>
+
+</html>

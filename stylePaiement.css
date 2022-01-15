@@ -1,0 +1,307 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 25% 30%;
+  height: 250px;
+  position: relative;
+  background-image: url(https://hdfondsdecran.com/image/201609/2722/ratatouille-film-danimation-paris.jpg);
+}
+
+
+.barre {
+	background-color: black;
+	height: 5px;
+	width: 100%;
+}
+
+.overlay {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  height: 100%;
+  right: 0;
+  bottom: 0;
+  padding: 0 !important;
+  margin: 0 !important;
+  /*background-color: rgba(10, 10, 10,0.3);*/
+}
+
+nav {
+position: absolute;
+top: 0;
+right: 0;
+left: 0;
+z-index: 2;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+padding: 100px 20px 10px 10px;
+}
+
+nav li {
+list-style: none;
+display: inline-block;
+padding-right: 10px;
+padding-left: 15x;
+padding-top: 5px;
+}
+
+nav li img {
+height: 40px;
+width: auto;
+}
+
+nav h2 {
+	color: rgb(254,254,235);
+	margin-left: 550px;
+	font-size: 60;
+	font-stretch: 150%;
+	font-family: Georgia, serif;
+}
+
+nav ul {
+	position: absolute;
+	right: 50px;
+	border: 1px solid black;
+	background-color: rgb(254, 255, 235);
+}
+
+li a {
+padding: 5px;
+text-decoration: none;
+font-size: 20;
+}
+
+.bconnex{
+padding-top: 5px;
+padding-bottom: 5px;
+padding-right: 5px;
+padding-left: 5px;
+background-color: rgb(254,254,235);
+font-family: Georgia, serif;
+font-size: 20px;
+position: absolute;
+right: 40px;
+top: 200px;
+border: 1px solid black;
+}
+
+.bconnex a{
+	color: rgb(130,100,100);
+	font-weight: bold;
+}
+
+
+.panier ion-icon{
+  vertical-align: center;
+  font-size: 25px;
+  padding-right: 5px;
+  color: rgb(130,100,100);
+}
+
+.panier span{
+  vertical-align: center;
+  font-size: 20px;
+  color: rgb(130,100,0);
+  position: relative;
+  bottom: 3px;
+}
+
+nav li img {
+	height: 40px;
+	width: auto;
+  }
+
+
+.panier a {
+  color: rgb(130,50,0);
+  cursor: pointer;
+  text-decoration: none;
+  font-family: Georgia, serif;
+  font-size: 20px;
+  vertical-align: top;
+  font-weight: bold;
+}
+
+.retour{
+	background-color: rgb(254,254,240);
+	padding-top: 15px;
+	padding-left: 15px;
+	padding-bottom: 80px;
+
+}
+
+
+.retour a{
+	font-size: 11px;
+	text-decoration: none;
+	color: rgb(130,50,0);
+}
+
+.montant{
+	height:0px;
+}
+
+.montant img{
+	width: 300px;
+	position: relative;
+	bottom: 15px;
+	left: 25px;
+}
+
+.montant h2{
+	font-size: 20px;
+	color: rgb(130,50,0);
+	position: relative;
+	top: 70px;
+	left: 60px;
+}
+
+
+.faucon{
+	height: 0px;
+}
+
+.faucon img{
+	height: 300px;
+	left: 1350px;
+	width: auto;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	top: 50px;
+}
+
+.storm{
+	height: 0px;
+}
+
+.storm img{
+	height: 800px;
+	left: 50px;
+	width: auto;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	top: 125px;
+}
+
+.formulaire{
+	background-color: rgb(254,254,240);
+	padding-bottom: 250px;
+	padding-right: 1000px;
+	padding-left: 600px;
+}
+
+.formulaire img{
+	width: 100px;
+	height: auto;
+	position: relative;
+	left: 550px;
+	top: 140px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+	border: none;
+  }
+
+.formulaire h1{
+	margin-bottom: 40px;
+	width: 800px;
+}
+
+.formulaire h3{
+	margin-bottom: 15px;
+	margin-top: 30px;
+}
+
+.cvv{
+	position: relative;
+	left: 325px;
+	bottom: 105px;
+}
+
+.boutValider{
+	position: relative;
+	left: 150px;
+}
+
+
+input{
+	height: 35px;
+	font-size: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.dateTexte:valid{
+	box-shadow:none;
+}
+
+.dateTexte:invalid{
+	box-shadow: none;
+}
+
+.valid:valid{
+	position: relative;
+	left:120px;
+	box-shadow:none;
+}
+
+
+
+input:valid{
+	box-shadow: 1px 0px 4px 1px green;
+}
+
+input:invalid{
+	box-shadow: 1px 0px 4px 1px red;
+}
+
+footer {
+	height: 200px;
+	width:100%;
+	background-color: rgb(40,90,150);
+	position: relative;
+	top: 0px;
+	margin: 0;
+}
+
+footer img{
+	width: auto;
+	height: 180px;
+	vertical-align: center;
+	padding-left: 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+footer h2{
+	color: white;
+	font-weight: bold;
+	vertical-align: center;
+	position: absolute;
+	left: 10%;
+	top: 50%;;
+}
+
+footer a{
+	color: rgb(200,230,255);
+	font-weight: bold;
+	font-size: 20px;
+	vertical-align: center;
+	position: absolute;
+	left: 88%;
+	top: 50%;
+}

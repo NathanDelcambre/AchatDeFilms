@@ -1,0 +1,192 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  
+  header {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 25% 30%;
+	height: 250px;
+	position: relative;
+	background-image: url(https://hdfondsdecran.com/image/201609/2722/ratatouille-film-danimation-paris.jpg);
+  }
+  
+  .barre {
+	  background-color: black;
+	  height: 5px;
+	  width: 100%;
+  }
+  
+  .overlay {
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	height: 100%;
+	right: 0;
+	bottom: 0;
+	padding: 0 !important;
+	margin: 0 !important;
+	/*background-color: rgba(10, 10, 10,0.3);*/
+  }
+  
+  nav {
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	z-index: 2;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 100px 20px 10px 10px;
+  }
+  
+  nav h2 {
+	  color: rgb(254,254,235);
+	  margin-left: 550px;
+	  font-size: 60;
+	  font-stretch: 150%;
+	  font-family: Georgia, serif;
+  }
+  
+  .formulaire{
+	  display: flex;
+	  justify-content:center;
+	  flex-wrap: wrap;
+	  margin-top: 0px;
+	  padding-top: 80px;
+	  padding-bottom: 275px;
+	  background-color: rgb(254,254,240);
+  }
+  
+  .retour{
+	  background-color: rgb(254,254,240);
+	  padding-top: 15px;
+	  padding-left: 15px;
+  
+  }
+  
+  .retour h2{
+	  font-size: 17px;
+  }
+  
+  .retour a{
+	  text-decoration: none;
+	  color: rgb(130,50,0);
+  }
+  
+  input{
+	  color: rgb(130,50,0);
+	  font-family: Georgia, serif;
+	  font-size: 20;
+	  height: 40px;
+	  position: absolute;
+	  left: 770px;
+	  padding-left: 10px;
+	  margin-top: 20px;
+  }
+  
+  .boutConnex{
+	  left: 865px;
+	  padding-left: 15px;
+	  padding-right: 15px;
+  }
+  
+  h3 {
+	padding-top: 5px;
+	color: rgb(130,50,0);
+	position: absolute;
+	left: 770px;
+  }
+  
+  .formulaire h4{
+	  position: relative;
+	  top: 450px;
+	  right: 370px;	
+  }
+  
+  .formulaire h1{
+	  position: relative;
+	  left: 120px;
+  }
+  
+  .boite{
+	  position: relative;
+	  left: 120px;
+  }
+  
+  .accueil{
+	  text-decoration: none;
+  }
+  
+.minions{
+	height: 0px;
+}
+
+.minions img{
+	height: 600px;
+	width: auto;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	top: 125px;
+}
+
+.minions2{
+	height: 0px;
+}
+
+.minions2 img{
+	height: 450px;
+	width: auto;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	top: 253px;
+	left: 1560px;
+}
+  footer{
+	  height: 200px;
+	  width:100%;
+	  background-color: rgb(40,90,150);
+  }
+  
+  footer{
+	  height: 200px;
+	  width:100%;
+	  background-color: rgb(40,90,150);
+	  position: relative;
+  }
+  
+  footer img{
+	  width: auto;
+	  height: 180px;
+	  vertical-align: center;
+	  padding-left: 15px;
+	  padding-top: 10px;
+	  padding-bottom: 10px;
+  }
+  
+  footer h2{
+	  color: white;
+	  font-weight: bold;
+	  vertical-align: center;
+	  position: absolute;
+	  left: 10%;
+	  top: 50%;;
+  }
+  
+  footer a{
+	  color: rgb(200,230,255);
+	  font-weight: bold;
+	  font-size: 20px;
+	  vertical-align: center;
+	  position: absolute;
+	  left: 88%;
+	  top: 50%;
+  }
